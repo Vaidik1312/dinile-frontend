@@ -1,6 +1,5 @@
 import React from "react";
 import "../css/Navbar.css";
-import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
@@ -10,7 +9,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg navbar-light bgcolor">
         <div className="container">
           <a className="navbar-brand" href="#">
-            <img src={require("../Assets/Logo.png")} />
+            <img src={require("../Assets/Logo.png")} alt="" />
           </a>
           <button
             className="navbar-toggler"
@@ -54,7 +53,7 @@ const Navbar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
-                  <img src={require("../Assets/flag.png")} />
+                  <img src={require("../Assets/flag.png")} alt="" />
                   English,USD
                 </a>
               </li>

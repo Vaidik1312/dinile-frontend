@@ -39,6 +39,7 @@ function Home() {
                                         <img
                                             src={require('../Assets/has-altin.png')}
                                             className="mainbanner"
+                                            alt=''
                                         />
                                         <div className="container">
                                             <div className="row">
@@ -66,6 +67,7 @@ function Home() {
                                         <img
                                             src={require('../Assets/has-altin.png')}
                                             className="mainbanner"
+                                            alt=''
                                         />
                                         <div className="container">
                                             <div className="row">
@@ -89,7 +91,7 @@ function Home() {
                                         </div>
                                     </div>
                                     <div class="item">
-                                        <img src={require('../Assets/has-altin.png')} className="mainbanner" />
+                                        <img src={require('../Assets/has-altin.png')} className="mainbanner" alt='' />
                                         <div className="container">
                                             <div className="row">
                                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -137,7 +139,7 @@ function Home() {
                                     <div className='d-flex'>
                                         <div className='daimond-box'>
                                             <div className='daimond-shap'>
-                                                <img src={require('../Assets/Group1.png')} alt="" srcset="" />
+                                                <img src={require('../Assets/Group1.png')} alt="" />
                                             </div>
                                             <div className='text-daimond'>
                                                 <h3>Round</h3>
@@ -151,7 +153,7 @@ function Home() {
                                     <div className='d-flex'>
                                         <div className='daimond-box'>
                                             <div className='daimond-shap'>
-                                                <img src={require('../Assets/Group1.png')} alt="" srcset="" />
+                                                <img src={require('../Assets/Group1.png')} alt="" />
                                             </div>
                                             <div className='text-daimond'>
                                                 <h3>Round</h3>
@@ -165,7 +167,7 @@ function Home() {
                                     <div className='d-flex'>
                                         <div className='daimond-box'>
                                             <div className='daimond-shap'>
-                                                <img src={require('../Assets/Group1.png')} alt="" srcset="" />
+                                                <img src={require('../Assets/Group1.png')} alt="" />
                                             </div>
                                             <div className='text-daimond'>
                                                 <h3>Round</h3>
@@ -179,7 +181,7 @@ function Home() {
                                     <div className='d-flex'>
                                         <div className='daimond-box'>
                                             <div className='daimond-shap'>
-                                                <img src={require('../Assets/Group1.png')} alt="" srcset="" />
+                                                <img src={require('../Assets/Group1.png')} alt="" />
                                             </div>
                                             <div className='text-daimond'>
                                                 <h3>Round</h3>
@@ -192,7 +194,7 @@ function Home() {
                                     <div className='d-flex'>
                                         <div className='daimond-box'>
                                             <div className='daimond-shap'>
-                                                <img src={require('../Assets/Group1.png')} alt="" srcset="" />
+                                                <img src={require('../Assets/Group1.png')} alt="" />
                                             </div>
                                             <div className='text-daimond'>
                                                 <h3>Round</h3>
@@ -205,7 +207,7 @@ function Home() {
                                     <div className='d-flex'>
                                         <div className='daimond-box'>
                                             <div className='daimond-shap'>
-                                                <img src={require('../Assets/Group1.png')} alt="" srcset="" />
+                                                <img src={require('../Assets/Group1.png')} alt="" />
                                             </div>
                                             <div className='text-daimond'>
                                                 <h3>Round</h3>
@@ -234,7 +236,7 @@ function Home() {
                                     <div className="items">
                                         <div className='col-xl-12 col-12-lg-4 col-sm-12'>
                                             <div className='img-box'>
-                                                <img src={require('../Assets/bg.png')} alt="" srcset="" />
+                                                <img src={require('../Assets/bg.png')} alt="" />
                                                 <h5 className='m-2 text-center'>Earrings</h5>
                                             </div>
                                         </div>
@@ -242,7 +244,7 @@ function Home() {
                                     <div className="items">
                                         <div className='col-xl-12 col-12'>
                                             <div className='img-box'>
-                                                <img src={require('../Assets/bg.png')} alt="" srcset="" />
+                                                <img src={require('../Assets/bg.png')} alt="" />
                                                 <h5 className='m-2 text-center'>Earrings</h5>
                                             </div>
                                         </div>
@@ -264,20 +266,24 @@ function Home() {
                                     <img
                                         src={require("../Assets/Group1224.png")}
                                         className="img-fluid"
+                                        alt=''
                                     />
                                     <img
                                         src={require("../Assets/Rectangle159.png")}
                                         className="img-fluid mt-2"
+                                        alt=''
                                     />
                                 </div>
                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                                     <img
                                         src={require("../Assets/Rectangle160.png")}
                                         className="img-fluid"
+                                        alt=''
                                     />
                                     <img
                                         src={require("../Assets/Rectangle158.png")}
                                         className="img-fluid mt-2"
+                                        alt=''
                                     />
                                 </div>
                             </div>
@@ -296,6 +302,7 @@ function Home() {
                             <img
                                 src={require("../Assets/Rectangle161.png")}
                                 className="img-fluid"
+                                alt=''
                             />
                         </div>
                     </div>
@@ -320,13 +327,13 @@ function Home() {
                     <div className="col-6 col-xl-6 col-lg-6 col-md-4">
                         <div>
 
-                            <img src={require('../Assets/Group 1.png')} alt="" srcset="" className='img-fluid' />
+                            <img src={require('../Assets/Group 1.png')} alt="" className='img-fluid' />
                         </div>
                     </div>
                     <div className="col-6 col-xl-6 col-lg-6 col-md-4">
                         <div>
 
-                            <img src={require('../Assets/Rectangle 155.png')} alt="" srcset="" className='img-fluid' />
+                            <img src={require('../Assets/Rectangle 155.png')} alt="" className='img-fluid' />
                         </div>
                     </div>
                 </div>
@@ -335,19 +342,19 @@ function Home() {
                 <div className="row-6">
                     <div className="col-12">
                         <div>
-                            <img src={require('../Assets/Mask group.png')} alt="" srcset="" className='img-fluid' />
+                            <img src={require('../Assets/Mask group.png')} alt="" className='img-fluid' />
                         </div>
                     </div>
                 </div>
                 <div className="row-6">
                     <div className="col-12">
                         <div>
-                            <img src={require('../Assets/Mask group (1).png')} alt="" srcset="" className='img-fluid' />
+                            <img src={require('../Assets/Mask group (1).png')} alt="" className='img-fluid' />
                         </div>
                     </div>
                     <div className='col-12'>
                         <div>
-                            <img src={require('../Assets/Group 1446.png')} alt="" srcset="" className='img-fluid' />
+                            <img src={require('../Assets/Group 1446.png')} alt="" className='img-fluid' />
                         </div>
                     </div>
                 </div>
