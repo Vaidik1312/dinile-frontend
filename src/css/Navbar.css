@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
 
 * {
   font-family: "Quicksand", sans-serif;
@@ -42,4 +42,44 @@
   max-width: 1440px !important;
   margin: 0 auto !important;
   padding: 0 15px !important;
+} */
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Media query for responsive layout */
+@media screen and (max-width: 768px) {
+  .navbar-toggler {
+    display: block;
+  }
+
+  .collapse {
+    display: none;
+    flex-basis: 100%;
+  }
+
+  .nav-container {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    padding: 15px 0;
+  }
+
+  .collapse.show {
+    display: flex;
+  }
 }

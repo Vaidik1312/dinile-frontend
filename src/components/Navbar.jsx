@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "../css/Navbar.css";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const Navbar = () => {
+  const [showNav, setShowNav] = useState(false);
+
+  const handleToggle = () => {
+    setShowNav(!showNav);
+  };
   return (
     <>
       <nav className="bgcolor">
@@ -81,7 +86,7 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <nav class="bg-color pt-1 pb-1">
+      <nav class="bg-color pt-1 pb-1 navbar navbar-expand-lg navbar-light">
         <div class="nav-container">
           <button
             class="navbar-toggler"
@@ -94,9 +99,9 @@ const Navbar = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="" id="navbarNavDropdown">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="m-0 d-flex align-items-center justify-content-center">
-              <li class="nav-item ">
+              <li class="nav-item">
                 <a class="nav-link nav" aria-current="page" href="#">
                   DIAMONDS
                 </a>
@@ -123,6 +128,53 @@ const Navbar = () => {
               </li>
               <li class="nav-item">
                 <a class="nav-link nav" href="#">
+                  EDUCATION
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <nav className="bg-color pt-1 pb-1 navbar navbar-expand-lg navbar-light">
+        <div className="nav-container">
+          <button
+            className="navbar-toggler"
+            type="button"
+            aria-label="Toggle navigation"
+            onClick={handleToggle}
+          >
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className={`collapse navbar-collapse ${showNav ? 'show' : ''}`} id="navbarNavDropdown">
+            <ul className="m-0 d-flex align-items-center justify-content-center">
+              <li className="nav-item">
+                <a className="nav-link nav" aria-current="page" href="#">
+                  DIAMONDS
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link nav" href="#">
+                  ENGAGEMENT RINGS
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link nav" href="#">
+                  WEDDING RINGS
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link nav" aria-current="page" href="#">
+                  JEWELLERY
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link nav" href="#">
+                  GIFTS
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link nav" href="#">
                   EDUCATION
                 </a>
               </li>
