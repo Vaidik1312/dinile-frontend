@@ -352,6 +352,9 @@ function Home() {
                     </div>
                 </div>
             </section>
+            <footer>
+                
+            </footer>
         </>
     )
 }
