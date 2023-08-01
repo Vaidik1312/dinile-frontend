@@ -6,24 +6,26 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bgcolor">
-        <div className="container">
-          <a className="navbar-brand" href="#">
-            <img src={require("../Assets/Logo.png")} alt="" />
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <nav className="bgcolor">
+        <div className="nav-container d-flex align-items-center justify-content-between">
+          <div className="logo-body">
+            <a className="navbar-brand" href="#">
+              <img src={require("../Assets/Logo.png")} alt="" />
+            </a>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div className="contact-info">
+            <ul className="d-flex align-items-center justify-content-between m-0 gap-3">
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   <i className="fa-solid fa-phone"></i>1-800-242-2728
@@ -41,6 +43,8 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
+          </div>
+          <div className="d-flex align-items-center gap-2" id="navbarSupportedContent">
             <form className="d-flex inputbox">
               <input
                 className="form-control me-2"
@@ -50,24 +54,24 @@ const Navbar = () => {
               />
               <i class="fa-solid fa-magnifying-glass iconsearch"></i>
             </form>
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+            <ul className="d-flex align-items-center justify-content-between m-0">
+              <li className="nav-item me-2">
                 <a className="nav-link active" aria-current="page" href="#">
                   <img src={require("../Assets/flag.png")} alt="" />
                   English,USD
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ms-2">
                 <a className="nav-link" href="#">
                   <i class="fa-solid fa-user"></i>
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ms-2">
                 <a className="nav-link" href="#">
                   <i class="fa-solid fa-heart"></i>
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item ms-2">
                 <a className="nav-link" href="#">
                   <i class="fa-solid fa-cart-plus"></i>
                 </a>
@@ -77,8 +81,8 @@ const Navbar = () => {
         </div>
       </nav>
 
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container ">
+      <nav class="bg-color pt-1 pb-1">
+        <div class="nav-container">
           <button
             class="navbar-toggler"
             type="button"
@@ -90,8 +94,8 @@ const Navbar = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mx-auto mb-2 px-10 mb-lg-0 d-flex gap-5">
+          <div class="" id="navbarNavDropdown">
+            <ul class="m-0 d-flex align-items-center justify-content-center">
               <li class="nav-item ">
                 <a class="nav-link nav" aria-current="page" href="#">
                   DIAMONDS
@@ -126,7 +130,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
     </>
   );
 };
