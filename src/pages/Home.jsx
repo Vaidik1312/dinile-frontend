@@ -221,7 +221,7 @@ function Home() {
             <section className='section3 section-padding-y'>
                 <div className='home-container'>
                     <div className="row media">
-                        <div className="col-4 col-xl-4 col-lg-4  col-md-12 col-sm-12 col-xs-6 ">
+                        <div className="col-12 col-xl-4 col-lg-4  col-md-12 col-sm-12 col-xs-6 ">
                             <div className='explore-content'>
                                 <h1>Explore Blue Nile</h1>
                                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam laudantium officia voluptatum culpa,
