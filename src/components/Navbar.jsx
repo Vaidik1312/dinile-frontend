@@ -54,7 +54,7 @@ const Navbar = () => {
               <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="#">
                   <img src={require("../Assets/flag.png")} alt="" />
-                  English,USD
+                  Gujrati,USD
                 </a>
               </li>
               <li className="nav-item">
