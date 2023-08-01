@@ -5,6 +5,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 function Home() {
     const options = {
@@ -352,6 +353,7 @@ function Home() {
                     </div>
                 </div>
             </section>
+            <Footer/>
         </>
     )
 }
