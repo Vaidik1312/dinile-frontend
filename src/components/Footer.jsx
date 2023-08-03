@@ -9,16 +9,16 @@ const Footer = () => {
           <div className="container">
             <div className="row">
               <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
-                <h5>Customer Care</h5>
+                <h5 className="h5">Customer Care</h5>
                 <ul>
                   <li className="dots">
-                    <i class="fa-solid fa-comment-dots"></i>Live Chat
+                    <i class="fa-solid fa-comment-dots footericon"></i>Live Chat
                   </li>
                   <li className="dots">
-                    <i class="fa-solid fa-phone"></i>1-234-567-8910
+                    <i class="fa-solid fa-phone footericon"></i>1-234-567-8910
                   </li>
                   <li className="dots">
-                    <i class="fa-solid fa-envelope"></i>Email Us
+                    <i class="fa-solid fa-envelope footericon"></i>Email Us
                   </li>
                   <li>Contact Us</li>
                   <li>FAQs</li>
@@ -30,7 +30,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
-                <h5>Why Dinile Gems?</h5>
+                <h5 className="h5">Why Dinile Gems?</h5>
                 <ul>
                   <li>Returns Are Free</li>
                   <li>Conflict Free Diamond </li>
@@ -45,7 +45,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
-                <h5>About Dinile Gems</h5>
+                <h5 className="h5">About Dinile Gems</h5>
                 <ul>
                   <li>Quality & Value</li>
                   <li>Diamond Sustainability </li>
@@ -56,7 +56,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
-                <h5>Diamond Shapes</h5>
+                <h5 className="h5">Diamond Shapes</h5>
                 <ul>
                   <li>Round </li>
                   <li>Princess </li>
@@ -71,7 +71,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
-                <h5>Get Exclusive Offers and News</h5>
+                <h5 className="h5">Get Exclusive Offers and News</h5>
                 <form action="" class="d-flex align-items-center">
                   <input
                     type="email"
@@ -82,11 +82,18 @@ const Footer = () => {
                   <button class="bt">SIGN UP</button>
                 </form>
 
-                <div className="facebook"></div>
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-square-twitter"></i>
-                <i class="fa-brands fa-pinterest-p"></i>
-                <i class="fa-brands fa-square-instagram"></i>
+                <div className="socialicon">
+                  <i class="fa-brands fa-square-facebook facebookicon"></i>
+                  <div className="twittericon">
+                    <i class="fa-brands fa-twitter twittersize"></i>
+                  </div>
+                  <div className="pinteresticon">
+                    <i class="fa-brands fa-pinterest-p pinterestsize"></i>
+                  </div>
+                  <div className="instaicon">
+                    <i class="fa-brands fa-instagram instasize"></i>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

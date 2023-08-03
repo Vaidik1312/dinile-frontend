@@ -1,20 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/Navbar.css";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const Navbar = () => {
-  const [showNav, setShowNav] = useState(false);
 
-  const handleToggle = () => {
-    setShowNav(!showNav);
-  };
+
   return (
     <>
-      <nav className="bgcolor">
+      {/* <nav className="bgcolor">
         <div className="nav-container d-flex align-items-center justify-content-between">
           <div className="logo-body">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand">
               <img src={require("../Assets/Logo.png")} alt="" />
             </a>
             <button
@@ -49,7 +46,10 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="d-flex align-items-center gap-2" id="navbarSupportedContent">
+          <div
+            className="d-flex align-items-center gap-2"
+            id="navbarSupportedContent"
+          >
             <form className="d-flex inputbox">
               <input
                 className="form-control me-2"
@@ -84,9 +84,9 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
 
-      <nav class="bg-color pt-1 pb-1 navbar navbar-expand-lg navbar-light">
+      {/* <nav class="bg-color pt-1 pb-1 navbar navbar-expand-lg navbar-light">
         <div class="nav-container">
           <button
             class="navbar-toggler"
@@ -181,7 +181,51 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
+
+ 
+<nav class="navbar bgcolor">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+    <a className="navbar-brand">
+              <img src={require("../Assets/Logo.png")} alt="" />
+            </a>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider" /></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+ 
     </>
   );
 };
